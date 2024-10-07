@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ImageMain from "./image.jpg";
+import Link from "next/link";
 
 
 function App(){
@@ -18,6 +19,8 @@ function App(){
       </div>
       <h1 className="text-4xl font-bold text-white text-center">Hello World</h1>
 
+
+      <Link href="Product">page</Link>
     
     </>
   )
